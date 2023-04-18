@@ -10,7 +10,18 @@
         <a-asset-item 
           id="codey" 
           src="codey.gltf"></a-asset-item>
+
+        
+          <audio
+          id="air"
+          src="noise.wav">
+          </audio>
       </a-assets>
+      <a-sound
+      src="#air"
+      autoplay="true"
+      position="-3 1 -4">
+      </a-sound>
       
       <a-sky src="#sky"></a-sky>
       <a-plane 
